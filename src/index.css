@@ -43,8 +43,9 @@ body {
   color: #242424;
   letter-spacing: 4rem;
 }
-.header-section{
+.hero-section{
   display: flex;
+  background-color:lightslategray;
 }
 .hero-pages{
   max-width: 250px;

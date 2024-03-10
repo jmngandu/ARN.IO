@@ -3,15 +3,14 @@ import React from "react";
 export default function Hero(props){
     return(
         <>
-        <div className="hero-section">
-            <h1 className="hero-title">ARN.IO</h1>
+        <div className="hero-section"> 
             <div className="hero-pages">
                 <div className="hero-single">
-                <h1>plan your reading</h1>
+                <h1>{props.title}</h1>
                 <div className="inner-page">
-                <h2>schedule</h2>
-                <p>Worried you never stick to reading ?</p>
-                <p>Track your progress efficently </p>
+                <h2>{props.source}</h2>
+                <p>{props.firstDescription}</p>
+                <p>{props.secondDescription} </p>
                 </div>
                 </div>
                 <hr/>
