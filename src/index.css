@@ -36,6 +36,10 @@ body {
   opacity:0.5;
   border-radius: 4rem;
 }
+.get-started >a {
+  text-decoration: none;
+  color: #fff;
+}
 /*HERO SECTION*/
 .hero-title{
   font-size: 10rem;
@@ -45,7 +49,7 @@ body {
 }
 .hero-section{
   display: flex;
-  background-color:lightslategray;
+  /* background-color:lightslategray; */
 }
 .hero-pages{
   max-width: 250px;
@@ -69,6 +73,7 @@ body {
 }
 .inner-page >h2,h1{
   text-align: right;
+  font-weight: bold;
 }
 hr{
   margin: 4rem;

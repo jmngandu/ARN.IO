@@ -1,6 +1,8 @@
 import React from "react";
+import heroData from "./heroData";
 
 export default function Hero(props){
+ 
     return(
         <>
         <div className="hero-section"> 
