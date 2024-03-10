@@ -1,8 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
+  font-size: 62.7%;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -14,9 +13,25 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(./assets/backdrop.png);
+}
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.header-list{
+  display: flex;
+  list-style-type: none;
+  padding: 2rem;
+}
+.header-list >li{
+  padding: 1rem;
+}
+.get-started{
+  background-color:steelblue;
+  opacity:0.5;
+  border-radius: 4rem;
 }
