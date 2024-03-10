@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: .2;
   font-size: 62.7%;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -16,6 +16,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+/*HEADER SECTION*/
 .header-section{
   display: flex;
   justify-content: space-between;
@@ -34,4 +35,42 @@ body {
   background-color:steelblue;
   opacity:0.5;
   border-radius: 4rem;
+}
+/*HERO SECTION*/
+.hero-title{
+  font-size: 10rem;
+  text-align: center;
+  color: #242424;
+  letter-spacing: 4rem;
+}
+.header-section{
+  display: flex;
+}
+.hero-pages{
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+}
+.inner-page{
+  background-color: #fff;
+  color: #000;
+  min-width: 250px;
+  height: 300px;
+  opacity: 0.4;
+  padding: 2rem;
+  line-height: 1.5rem;
+  font-size: 2rem;
+  border-radius: 3rem;
+  word-spacing: 1rem;
+}
+.inner-page >p{
+  line-height: 3rem;
+}
+.inner-page >h2,h1{
+  text-align: right;
+}
+hr{
+  margin: 4rem;
+  border: .3rem  #000 solid;
+  height: 300px;
 }
