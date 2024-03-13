@@ -165,3 +165,146 @@ hr{
   display: flex;
   padding: 2rem;
 }
+/*DASHBOARD*/
+.dashboard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.dash-title{
+  font-size: 2.5rem;
+}
+.dash-control{
+  background-color: lightblue;
+  height: 100vh;
+  width: 300px;
+  border-radius: 4rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(133, 145, 179);
+  margin: 1rem;
+  border-radius: 3rem;
+}
+.profile-img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left: .5rem;
+}
+.profile-input{
+  width: 250px;
+}
+
+.profile-read{
+  margin: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+ 
+}
+.profile-read:hover, .upload:hover{
+  opacity: .6;
+  background-color: #242424;
+}
+.right-profile >a{
+  color: #fff;
+}
+.upload{
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  margin: auto;
+}
+
+.data-set img, .upload img{
+  width: 20px;
+  padding: .2rem;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-book{
+  width: 500px;
+ background-color: lightblue;
+}
+
+
+
+
+
+.centre-dashboard{
+  background-color: lightblue;
+  height: 70vh;
+  width: 600px;
+  border-radius: 4rem;
+  padding: 2rem;
+  line-height: 3rem;
+  cursor:zoom-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: black;
+  bottom: 1rem;
+}
+.book-page{
+font-size: 2rem;
+}
+
+
+
+
+
+
+
+.right-control{
+  background-color: lightblue;
+  height: 100vh;
+  width: 300px;
+  border-radius: 4rem;
+  line-height: 3rem;
+  padding: 2rem;
+  color: #242424;
+}
+.right-control img{
+  width: 100%;
+  border-radius: 2rem;
+  height: 40vh;
+}
+#right-title{
+  font-size: 2rem;
+}
+.progress{
+  display: flex;
+  justify-content: space-around;
+}
+.progress img{
+  width: 100px;
+  height: 100px;
+}

@@ -4,6 +4,7 @@ import './App.css'
 import Home from './components/Home'
 import Authenticate from './components/Authenticate'
 import SignUp from './components/SignUp'
+import Dashboard from './components/Dashboard'
 function App() {
   return(
     <>
@@ -11,6 +12,7 @@ function App() {
       <Route path="/" element={ <Home />}/>
       <Route path="authenticate" element={<Authenticate/>}/>
       <Route path="signup" element={< SignUp/>}/>
+      <Route path="dashboard" element={<Dashboard/>}/>
    
     </Routes>
    
