@@ -2,10 +2,18 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home'
+import Authenticate from './components/Authenticate'
+import SignUp from './components/SignUp'
 function App() {
   return(
     <>
-    <Home />
+    <Routes>
+      <Route path="/" element={ <Home />}/>
+      <Route path="authenticate" element={<Authenticate/>}/>
+      <Route path="signup" element={< SignUp/>}/>
+   
+    </Routes>
+   
     </>
   )
 }

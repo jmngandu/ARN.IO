@@ -96,3 +96,72 @@ hr{
   border: .3rem  lightslategray solid;
   height: 300px;
 }
+/*AUTHENTICATE*/
+.authenticate{
+  background-color: lightblue;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+#login-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: .7rem;
+}
+.form-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  font-size: 2rem;
+}
+.lower-input{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+}
+.input{
+  padding: 1rem;
+  border-radius: 3rem;
+  width: 150px;
+  margin: 1rem;
+  text-align: center;
+  border: none;
+  color: #000;
+  background-color: silver;
+  outline: none;
+}
+#login-btn{
+  padding: .5rem 3rem;
+  border-radius: 4rem;
+  border: none;
+  background-color: steelblue;;
+}
+#login-btn:hover{
+  opacity: .5;
+}
+.signup-con{
+  color: #fff;
+}
+/*SIGNUP*/
+.signup{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color:lightcyan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  margin: auto;
+}
+.sign-class{
+  display: flex;
+  padding: 2rem;
+}
