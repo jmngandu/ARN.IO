@@ -8,11 +8,11 @@ export default function Hero(props){
             <div className="hero-pages">
             <hr/>
                 <div className="hero-single">
-                    <h1>{props.title}</h1>
+                    <h1>{props.main.title}</h1>
                     <div className="inner-page">
-                        <h2>{props.source}</h2>
-                        <p>{props.firstDescription}</p>
-                        <p>{props.secondDescription} </p>
+                        <h2>{props.mainsource}</h2>
+                        <p>{props.main.firstDescription}</p>
+                        <p>{props.main.secondDescription} </p>
                     </div>
                 </div>
                 <hr/>

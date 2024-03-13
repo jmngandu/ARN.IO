@@ -27,6 +27,7 @@ body {
   display: flex;
   list-style-type: none;
   padding: 2rem;
+  align-items: center;
 }
 .header-list >li{
   padding: 1rem;
@@ -35,10 +36,16 @@ body {
   background-color:steelblue;
   opacity:0.5;
   border-radius: 4rem;
+  border: none;
+  padding: 1rem 2rem;
 }
 .get-started >a {
   text-decoration: none;
+  font-size: 2rem;
   color: #fff;
+}
+.get-started:hover{
+  background-color:lightblue;
 }
 /*HERO SECTION*/
 .hero-title{

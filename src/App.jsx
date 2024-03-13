@@ -9,11 +9,12 @@ function App() {
   const heroDataset = heroData.map(main=>{
     return(
       <>    
-       <Hero key={main.id}title={main.title} source={main.source} firstDescription={main.firstDescription} secondDescription={main.secondDescription}/>
+       <Hero
+        key={main.id}
+        main={main}/>
       </>
     )
   })
-
   return (
     <>
     <Header/>

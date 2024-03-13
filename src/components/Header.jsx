@@ -9,7 +9,7 @@ export default  function Header(){
         <ul className="header-list">
             <li> Home </li>
             <li> Workspace</li>
-            <li className="get-started"><a link="aunthentication" href="https://duckduckgo.com/">Get started</a></li>
+            <button className="get-started"><a link="aunthentication" href="https://duckduckgo.com/">Get started</a></button>
             
         </ul>
         </div>
