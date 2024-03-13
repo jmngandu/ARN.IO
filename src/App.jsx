@@ -1,26 +1,11 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Title from './components/Title'
-import heroData from './components/heroData' 
+import Home from './components/Home'
 function App() {
-
-  const heroDataset = heroData.map(main=>{
-    return(
-      <>    
-       <Hero
-        key={main.id}
-        main={main}/>
-      </>
-    )
-  })
-  return (
+  return(
     <>
-    <Header/>
-    <Title />
-    <div className="heroMain">{heroDataset} </div>
-    
+    <Home />
     </>
   )
 }
