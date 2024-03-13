@@ -218,6 +218,7 @@ hr{
 .profile-read:hover, .upload:hover{
   opacity: .6;
   background-color: #242424;
+  transition: 1s ease-in-out;
 }
 .right-profile >a{
   color: #fff;
