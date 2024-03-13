@@ -5,7 +5,7 @@ export default  function Header(){
     return(
         <>
         <div className="header-section">
-        <h3>ARN.IO</h3>
+        <h3><img src="src/assets/images/progress.jpg" className="logo"/>ARN.IO</h3>
         <ul className="header-list">
             <li> Home </li>
             <li> Workspace</li>

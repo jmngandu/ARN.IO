@@ -23,6 +23,11 @@ body {
   align-items: center;
   font-size: 2rem;
 }
+.logo{
+  width: 60px;
+ background-color: #242424;
+ border-radius: 50%;
+}
 .header-list{
   display: flex;
   list-style-type: none;
