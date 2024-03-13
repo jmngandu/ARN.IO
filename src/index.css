@@ -47,14 +47,23 @@ body {
   color: #242424;
   letter-spacing: 4rem;
 }
-.hero-section{
+.hero-main{
   display: flex;
-  /* background-color:lightslategray; */
+  flex-wrap: wrap;
 }
+.hero-section{
+  margin: auto;  
+}
+
 .hero-pages{
-  max-width: 250px;
+  max-width: 300px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+}
+.heroMain{
+  display: flex;
+  flex-wrap: wrap;
 }
 .inner-page{
   background-color: #fff;
@@ -77,6 +86,6 @@ body {
 }
 hr{
   margin: 4rem;
-  border: .3rem  #000 solid;
+  border: .3rem  lightslategray solid;
   height: 300px;
 }
