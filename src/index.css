@@ -146,7 +146,11 @@ hr{
   padding: .5rem 3rem;
   border-radius: 4rem;
   border: none;
-  background-color: steelblue;;
+  background-color: steelblue;
+}
+.linked{
+  text-decoration: none;
+  color: #fff;
 }
 #login-btn:hover{
   opacity: .5;

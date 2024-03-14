@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SignUp(){
     return(
@@ -21,7 +22,7 @@ export default function SignUp(){
                 </div>
             
             </div>
-            <button id="login-btn">signup</button>
+            <button id="login-btn" ><Link to="/Dashboard" className="linked">signup</Link></button>
             </form>
             </div>
         

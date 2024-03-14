@@ -1,5 +1,6 @@
 import React from "react";
 import App from "../App";
+import { Link } from "react-router-dom";
 
 export default  function Header(){
     return(
@@ -9,7 +10,7 @@ export default  function Header(){
         <ul className="header-list">
             <li> Home </li>
             <li> Workspace</li>
-            <button className="get-started"><a link="aunthentication" href="https://duckduckgo.com/">Get started</a></button>
+            <button className="get-started"><Link to="/Authenticate" >Get started</Link></button>
             
         </ul>
         </div>
