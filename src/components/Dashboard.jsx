@@ -79,7 +79,7 @@ As the story unfolds, the sisters' journey becomes a symbol of hope and resilien
         </div>
         
         <div className="right-dashboard">
-        <h2 className="dash-title">hardy boys</h2>
+        <h2 className="dash-title">Hardy boys</h2>
             <div className="right-control">
                 <img src="src/assets/images/book.jpg"/>
                 <p id="right-title">A mystery book about two

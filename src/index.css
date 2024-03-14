@@ -32,7 +32,6 @@ body {
 
  a.active{
   background-color: lightblue;
-  color: yellow;
   border-radius: 2rem;
   padding: .5rem 2rem;
 }
