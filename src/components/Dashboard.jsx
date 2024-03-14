@@ -1,6 +1,7 @@
 import React from "react";
 import profileData from "./profileData";
 import ProfileRead from "./ProfileRead";
+import Header from "./Header";
 
 export default function Dashboard(){
     const profileDataset = profileData.map(menu=>{
@@ -16,6 +17,7 @@ export default function Dashboard(){
     })
     return(
         <>
+        <Header/>
         <div className="dashboard">
         <div className="left-dashboard">
             <h2 className="dash-title">Happy reading Daisy</h2>

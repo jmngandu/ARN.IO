@@ -1,16 +1,17 @@
 import React from "react";
 import App from "../App";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default  function Header(){
     return(
         <>
         <div className="header-section">
-        <h3><img src="src/assets/images/progress.jpg" className="logo"/>ARN.IO</h3>
+        <h3><Link to="/"><img src="src/assets/images/progress.jpg" className="logo"/></Link>ARN.IO</h3>
         <ul className="header-list">
-            <li> Home </li>
-            <li> Workspace</li>
-            <button className="get-started"><Link to="/Authenticate" >Get started</Link></button>
+            <li><NavLink to="/" id="nav-sect">Home</NavLink> </li>
+            <li> <NavLink to="/Dashboard" id="nav-sect">Workspace</NavLink>
+            </li>
+            <NavLink to="/Authenticate"id="nav-sect" >Get started</NavLink>
             
         </ul>
         </div>

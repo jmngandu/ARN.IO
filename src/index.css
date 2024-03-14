@@ -15,6 +15,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  user-select: none;
 }
 /*HEADER SECTION*/
 .header-section{
@@ -22,6 +23,18 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
+}
+
+#nav-sect{
+  text-decoration: none;
+  color: #fff;
+}
+
+ a.active{
+  background-color: lightblue;
+  color: yellow;
+  border-radius: 2rem;
+  padding: .5rem 2rem;
 }
 .logo{
   width: 60px;
@@ -37,21 +50,7 @@ body {
 .header-list >li{
   padding: 1rem;
 }
-.get-started{
-  background-color:steelblue;
-  opacity:0.5;
-  border-radius: 4rem;
-  border: none;
-  padding: 1rem 2rem;
-}
-.get-started >a {
-  text-decoration: none;
-  font-size: 2rem;
-  color: #fff;
-}
-.get-started:hover{
-  background-color:lightblue;
-}
+
 /*HERO SECTION*/
 .hero-title{
   font-size: 10rem;
