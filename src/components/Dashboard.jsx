@@ -16,8 +16,9 @@ export default function Dashboard(){
         )
     })
     return(
-        <>
+        <><div className="header-get">
         <Header/>
+        </div>
         <div className="dashboard">
         <div className="left-dashboard">
             <h2 className="dash-title">Happy reading Daisy</h2>

@@ -11,7 +11,7 @@ export default  function Header(){
             <li><NavLink to="/" id="nav-sect">Home</NavLink> </li>
             <li> <NavLink to="/Dashboard" id="nav-sect">Workspace</NavLink>
             </li>
-            <NavLink to="/Authenticate"id="nav-sect" >Get started</NavLink>
+            <NavLink to="/Authenticate"id="nav-sect" className="hide" >Get started</NavLink>
             
         </ul>
         </div>

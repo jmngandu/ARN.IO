@@ -179,6 +179,10 @@ hr{
   align-items: center;
   text-align: center;
 }
+
+.header-get  .hide{
+  display: none;
+}
 .dash-title{
   font-size: 2.5rem;
 }
