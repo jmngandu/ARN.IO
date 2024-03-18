@@ -1,2 +1,2 @@
 # ARN.IO
-> ARN.IO is  a learning app that helps learners to track their learning journey
+> ARN.IO is  a learning app that helps learners track their learning journey
