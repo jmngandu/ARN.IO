@@ -172,6 +172,12 @@ hr{
   display: flex;
   padding: 2rem;
 }
+/*NOTFOUND*/
+#notfound{
+  text-align: center;
+  color: #000;
+  font-size: 4rem;
+}
 /*DASHBOARD*/
 .dashboard{
   display: flex;
