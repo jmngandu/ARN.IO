@@ -9,7 +9,9 @@ export default function Authenticate(){
             <form className="form-section">
             <input type="email" placeholder="Gmail account" name="email"className="input" id="input-email"/>
             <input type="password" placeholder="password" name="password" className="input"id="input-password"/>
+
             <button id="login-btn"><Link to="/Dashboard" className="linked">login</Link></button>
+           
             <div className="lower-input">
                 <p>Don't have an account?</p>
                 <p><Link to="/SignUp" className="signup-con">signup</Link></p>
