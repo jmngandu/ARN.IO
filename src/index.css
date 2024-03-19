@@ -277,7 +277,6 @@ hr{
   border-radius: 4rem;
   padding: 2rem;
   line-height: 3rem;
-  cursor:progress;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
