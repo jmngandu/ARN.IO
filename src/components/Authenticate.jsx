@@ -16,7 +16,6 @@ export default function Authenticate(){
                 <p>Don't have an account?</p>
                 <p><Link to="/SignUp" className="signup-con">signup</Link></p>
             </div>
-        
             </form>
         
         </div>
