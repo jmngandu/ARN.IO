@@ -13,7 +13,7 @@ export default function Authenticate(){
             <button id="login-btn"><Link to="/Dashboard" className="linked">login</Link></button>
            
             <div className="lower-input">
-                <p>Don't have an account?</p>
+                <p>Don't have an account ?</p>
                 <p><Link to="/SignUp" className="signup-con">signup</Link></p>
             </div>
             </form>
