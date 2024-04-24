@@ -44,7 +44,7 @@ export default function Dashboard() {
                 {profileDataset}
               </div>
               <div className="input profile-input upload">
-                <img src="src/assets/images/progress.jpg" />
+                <img src="../images/progress.jpg" />
                 Upload files
               </div>
             </div>
