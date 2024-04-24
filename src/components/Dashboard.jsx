@@ -23,7 +23,7 @@ export default function Dashboard() {
             <div className="profile">
               <div className="left-profile">
                 <img
-                  src="src/assets/images/login.jpg"
+                  src="./src/assets/images/login.jpg"
                   className="profile-img"
                 />
                 <p>Thursday 8pm</p>
