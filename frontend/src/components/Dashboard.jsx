@@ -18,7 +18,7 @@ export default function Dashboard() {
       </div>
       <div className="dashboard">
         <div className="left-dashboard">
-          <h2 className="dash-title">Happy reading Daisy</h2>
+          <h2 className="dash-title">Happy reading James</h2>
           <div className="dash-control">
             <div className="profile">
               <div className="left-profile">
@@ -26,10 +26,10 @@ export default function Dashboard() {
                   src="./src/assets/images/login.jpg"
                   className="profile-img"
                 />
-                <p>Thursday 8pm</p>
+                <p>Wednesday 8pm</p>
               </div>
               <div className="right-profile">
-                <h2>Daisy Dee</h2>
+                <h2>James Ngandu</h2>
                 <input
                   type="text"
                   name="book"
