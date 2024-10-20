@@ -8,7 +8,7 @@ export default function Header() {
       <div className="header-section">
         <h3>
           <Link to="/">
-            <img src="src/assets/images/progress.jpg" className="logo" />
+            <img src="../../src/assets/images/progress.jpg" className="logo" />
           </Link>
           ARN.IO
         </h3>
