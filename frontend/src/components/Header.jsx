@@ -1,16 +1,16 @@
 import React from "react";
 import App from "../App";
 import { Link, NavLink } from "react-router-dom";
+// import { logo } from "../images/progress.jpg";
 
 export default function Header() {
   return (
     <>
       <div className="header-section">
-        <h3>
-          <Link to="/">
-            <img src="../../src/assets/images/progress.jpg" className="logo" />
+        <h3 className="nav-logo">
+          <Link className="nav-logo" to="/">
+            ARN.IO
           </Link>
-          ARN.IO
         </h3>
         <ul className="header-list">
           <li>
