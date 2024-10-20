@@ -25,7 +25,11 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
-
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* position: fixed; */
+  width: 100%;
+  z-index: 999;
 }
 
 #nav-sect {
