@@ -113,7 +113,7 @@ export default function Dashboard() {
         <div className="right-dashboard">
           <h2 className="dash-title">Hardy boys</h2>
           <div className="right-control">
-            <img src="src/assets/images/book.jpg" />
+            <img src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729704806/ARN/book_qcojey.jpg" />
             <p id="right-title">
               A mystery book about two brothers and their friends as they try to
               investigate strange happenings on skull mountain
