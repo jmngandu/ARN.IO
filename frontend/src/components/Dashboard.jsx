@@ -120,7 +120,7 @@ export default function Dashboard() {
             </p>
             <div className="progress">
               <div className="percentage">
-                <img src="src/assets/images/progress.jpg" />
+                <img src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729704805/ARN/progress_rrjr4t.png" />
                 <p>Progress</p>
               </div>
               <div className="streak">
