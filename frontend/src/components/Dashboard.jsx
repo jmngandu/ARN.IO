@@ -44,7 +44,7 @@ export default function Dashboard() {
                 {profileDataset}
               </div>
               <div className="input profile-input upload">
-                <img src="../images/progress.jpg" />
+                <img src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729704805/ARN/progress_rrjr4t.png" />
                 Upload files
               </div>
             </div>
