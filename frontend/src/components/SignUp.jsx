@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const loginImageUrl = "../images/login.jpg";
+
 export default function SignUp() {
   return (
     <>
       <div className="signup">
-        <img src="src/assets/images/login.jpg" id="login-img" />
+        <img
+          src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729703890/login_ifmcrd.jpg"
+          id="login-img"
+        />
         <p>Signup to use ARN.IO</p>
         <form className="form-section">
           <div className="sign-class">

@@ -5,7 +5,10 @@ export default function Authenticate() {
   return (
     <>
       <div className="authenticate">
-        <img src="src/assets/images/login.jpg" id="login-img" />
+        <img
+          src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729703890/login_ifmcrd.jpg"
+          id="login-img"
+        />
         <form className="form-section">
           <input
             type="email"

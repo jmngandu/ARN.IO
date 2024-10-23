@@ -124,7 +124,7 @@ export default function Dashboard() {
                 <p>Progress</p>
               </div>
               <div className="streak">
-                <img src="src/assets/images/streak.jpg" />
+                <img src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729704804/ARN/streak_kejq7i.jpg" />
                 <p>Streak5 Days</p>
               </div>
             </div>
