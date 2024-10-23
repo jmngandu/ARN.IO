@@ -23,7 +23,7 @@ export default function Dashboard() {
             <div className="profile">
               <div className="left-profile">
                 <img
-                  src="./src/assets/images/login.jpg"
+                  src="https://res.cloudinary.com/dicfffpsh/image/upload/v1729703890/ARN/login_ifmcrd.jpg"
                   className="profile-img"
                 />
                 <p>Wednesday 8pm</p>
